@@ -1,0 +1,110 @@
+.parent{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  background-image: url('hotelAranzmani.jpg');
+  image-rendering: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100vh;
+  width: 100%;
+  
+}
+
+
+.button1 {
+    background-color: rgb(63,3,3);
+    border: none;
+    color: rgb(214,175,114);
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.naslov{
+  
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+  color:rgb(214,175,114) ;
+  position:relative;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}  
+
+.slova{
+  font-family:'Times New Roman', Times, serif;
+  
+  color: rgb(214,175,114);
+  margin-left: 10px;
+ 
+}
+
+.form {
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+  background-image: url('hotelAranzmani.jpg');
+  image-rendering: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.dugmici{
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+    border-collapse:separate;
+    border:solid black 1px;
+    border-radius:6px;
+    margin:25px;
+    margin-top: -20px
+
+  }
+  
+  th, td {
+    border-left:solid black 1px;
+    border-top:solid black 1px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: blue;
+    border-top: none;
+}
+  
+  tr:nth-child(even) {background-color: rgba(63,3,3,0.568)}
+
+  td:first-child, th:first-child {
+    border-left: none;
+}
+
+table.tabela{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+  table.tabela tr td {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif; 
+    color:rgb(214,175,114);
+    background-color: rgba(63,3,3,0.7);
+    font-weight: bold;
+    
+  }
+  .form-control{
+    margin: 85px 2px;
+    background-color:rgb(63,3,3) !important;
+    color: rgb(214,175,114);
+    font-weight: bold;
+  }

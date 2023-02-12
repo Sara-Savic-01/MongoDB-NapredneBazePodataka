@@ -1,0 +1,16 @@
+.float-containersila{
+	display: flex;
+	flex-direction: column;
+	background-image: url('hotelAranzmani.jpg');
+	image-rendering: auto;
+	background-position: center;
+	background-repeat: repeat;
+	background-size:cover;
+	height: 100vh;
+	width: 100%;
+  }
+
+  .float-containerforma{
+	background-color: rgb(214,175,114);
+    flex:row;
+  }
